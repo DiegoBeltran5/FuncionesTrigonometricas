@@ -530,7 +530,7 @@
             ctx.strokeStyle = '#f39c12';
             ctx.lineWidth = 2;
             ctx.beginPath();
-            ctx.arc(centerX, centerY, 30, 0, -degreesToRadians(currentAngle), currentAngle > 180);
+            ctx.arc(centerX, centerY, 30, 0, -degreesToRadians(currentAngle), true);
             ctx.stroke();
             
             // Etiqueta del ángulo
